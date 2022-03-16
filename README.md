@@ -23,3 +23,5 @@ Users should be able to:
 - Flexbox
 - BEM
 - Mobile-first workflow
+- Javascript
+- Public API
