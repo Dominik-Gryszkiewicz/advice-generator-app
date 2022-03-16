@@ -77,9 +77,25 @@ main {
   background-color: #52ffa8;
   padding: 1.3rem;
   border-radius: 50%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.box__icon:hover {
+  cursor: pointer;
+  background-color: #61ffb0;
+  -webkit-box-shadow: 0px 0px 20px 0px #61ffb0;
+          box-shadow: 0px 0px 20px 0px #61ffb0;
+}
+
+.box__icon:hover .box__icon__img {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .box__icon__img {
   width: 90%;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=style.css.map */
