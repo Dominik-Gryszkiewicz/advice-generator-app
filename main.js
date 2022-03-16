@@ -16,11 +16,7 @@ const getAdvice = () => {
         .catch(err => console.log(err));
 
         rotateDeg = rotateDeg + 180
-        console.log(rotateDeg);
-
         btnIcon.style.transform = `rotate(${rotateDeg}deg)`
-        // "rotate(-45deg)"
-
 }
 
 btn.addEventListener('click', getAdvice)
